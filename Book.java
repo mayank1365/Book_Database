@@ -1,11 +1,11 @@
 public class Book {
-    String title;
-    String author;
-    double userRating;
-    int reviews;
-    double price;
-    int year;
-    String genre;
+    private String title;
+    private String author;
+    private double userRating;
+    private int reviews;
+    private double price;
+    private int year;
+    private String genre;
 
     public Book(String title, String author, double userRating, int reviews, double price, int year, String genre) {
         this.title = title;
